@@ -4,7 +4,7 @@
   "description": "Debian packager.",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/ligreman/debianize.git"
+    "url": "https://github.com/ligreman/debianize.git"
   },
   "author": {
     "name": "Ligresoftware",
@@ -21,15 +21,12 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "grunt-contrib-copy": "~0.7.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt": "~0.4.2",
-    "load-grunt-tasks": "~0.3.0",
-    "dateformat": "~1.0.11",
-    "grunt-contrib-copy": "~0.7.0"
+    "load-grunt-tasks": "~0.3.0"
   },
   "dependencies": {
-    "dateformat": "^1.0.7-1.2.3",
-    "node-spawn": "0.0.7",
-    "replace": "^0.2.9"
+
   }
 }
