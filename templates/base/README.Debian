@@ -1,0 +1,6 @@
+${package} for Debian
+-----------------------
+
+${readmeFile}
+
+ -- ${maintainer.name} <${maintainer.email}>  ${date}

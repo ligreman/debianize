@@ -1,0 +1,15 @@
+Source: ${package}
+Section: ${section}
+Priority: ${priority}
+Maintainer: ${maintainer.name} <${maintainer.email}>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: ${homepage}
+#Vcs-Git: git://git.debian.org/collab-maint/package.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/package.git;a=summary
+
+Package: ${package}
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}${dependencies}
+Description: ${shortDescription}
+ ${longDescription}

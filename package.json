@@ -1,0 +1,35 @@
+{
+  "name": "debianize",
+  "version": "0.9.0",
+  "description": "Debian packager.",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/ligreman/debianize.git"
+  },
+  "author": {
+    "name": "Ligresoftware",
+    "email": "ligresoftware@gmail.com",
+    "url": "http://ligresoftware.ligreman.com"
+  },
+  "keywords": [
+    "debian",
+    "package",
+    "debianize"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.3.0",
+    "dateformat": "~1.0.11",
+    "grunt-contrib-copy": "~0.7.0"
+  },
+  "dependencies": {
+    "dateformat": "^1.0.7-1.2.3",
+    "node-spawn": "0.0.7",
+    "replace": "^0.2.9"
+  }
+}

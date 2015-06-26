@@ -1,0 +1,5 @@
+${package} (${version}${build}) ${changelog.stable}; urgency=low
+
+  * ${changelog.comment} (Closes: #${changelog.issue})
+
+ -- ${maintainer.name} <${maintainer.email}>  ${date}
